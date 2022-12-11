@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
     $email_subject = "Contacto desde el sitio web";
  
     // Aquí se deberían validar los datos ingresados por el usuario
-    if(!isset($_POST['first_name']) ||
+    if(!isset($_POST['name']) ||
         !isset($_POST['email']) || 
         !isset($_POST['Message']) ||
         !isset($_POST['subject'])) {
